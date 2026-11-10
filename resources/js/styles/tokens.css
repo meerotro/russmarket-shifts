@@ -1,0 +1,109 @@
+/*
+ * Design tokens. Values are measured from the Figma file — see design/tokens.md for the source
+ * of each one and for the list of values that had to be picked by eye.
+ */
+:root {
+  /* Surfaces */
+  --c-bg: #f2f3f7;
+  --c-surface: #ffffff;
+  --c-row-alt: #f8f8f8;
+  --c-line: #e6e7eb;
+  --c-dash: #e1e2e7;
+  --c-focus: #ceced0;
+
+  /* Text */
+  --c-text: #121317;
+  --c-text-2: #6c6c6c;
+  --c-text-3: #87888c;
+  --c-text-disabled: #b9bac0;
+
+  /* Dark theme (buttons, selection bar) */
+  --c-dark: #242426;
+  --c-dark-hover: #3c3d42;
+  --c-dark-active: #595961;
+  --c-dark-chip: #54555a;
+
+  /* Neutral fills */
+  --c-neutral: #f2f3f7;
+  --c-neutral-hover: #e7e8ed;
+  --c-neutral-active: #cdced5;
+  --c-ghost-hover: #f8f9fb;
+
+  /* Blue theme */
+  --c-blue: #5b7de9;
+  --c-blue-hover: #194bea;
+  --c-blue-active: #133bbe;
+  --c-blue-soft: #e7edfd;
+  --c-blue-soft-hover: #d5daf7;
+  --c-blue-soft-active: #b9caf6;
+  --c-blue-ghost-hover: #e7edfb;
+  --c-blue-ghost-active: #ccdaf7;
+  --c-blue-text: #3a51c3;
+  --c-blue-line: #9fb0f2;
+
+  /* Selection */
+  --c-select-bg: #ebeefd;
+  --c-select-line: #9fb0f2;
+
+  /* Shifts */
+  --c-shift-blue-bg: #e9ecfd;
+  --c-shift-blue-fg: #5c6bc0;
+  --c-shift-purple-bg: #e9deff;
+  --c-shift-purple-fg: #7a50dc;
+  --c-shift-mint-bg: #e0f8fa;
+  --c-shift-mint-fg: #1f847c;
+  --c-shift-solid-bg: #5b7de9;
+  --c-shift-solid-fg: #ffffff;
+  --c-shift-solid-sub: #dbe3ff;
+
+  --c-stripe-blue: #c2c3f3;
+  --c-stripe-purple: #c0b1f2;
+  --c-stripe-mint: #c5e9e5;
+
+  /* Coverage */
+  --c-cover-empty-bg: #fee5e1;
+  --c-cover-empty-fg: #e0605f;
+  --c-cover-ok-bg: #ebeefd;
+  --c-cover-ok-fg: #5b7de9;
+
+  /* Feedback */
+  --c-danger: #d64545;
+  --c-danger-bg: #fdecea;
+  --c-success: #1f847c;
+
+  --c-badge-blue: #4d8ced;
+  --c-badge-dark: #252525;
+
+  /* Shape */
+  --r-sm: 4px;
+  --r-md: 8px;
+  --r-lg: 16px;
+  --r-pill: 999px;
+
+  /* Sizes */
+  --control-h: 36px;
+  --sidebar-w: 218px;
+  --sidebar-w-collapsed: 64px;
+  --panel-w: 261px;
+  --page-pad: 24px;
+
+  --grid-employee-w: 172px;
+  --grid-head-h: 52px;
+  --grid-row-h: 56px;
+  --grid-foot-h: 38px;
+  --cell-w-week: 80px;
+  --cell-w-month: 44px;
+  --cell-h: 50px;
+  --cell-gap: 6px;
+
+  /* Type */
+  --font: 'Manrope Variable', 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --fs-title: 28px;
+  --fs-md: 14px;
+  --fs-sm: 13px;
+  --fs-xs: 12px;
+  --fs-2xs: 10px;
+
+  --shadow-pop: 0 8px 24px rgb(18 19 23 / 12%), 0 0 0 1px rgb(18 19 23 / 4%);
+  --ease: 120ms ease;
+}
