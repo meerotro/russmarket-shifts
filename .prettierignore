@@ -8,3 +8,4 @@ package-lock.json
 design
 *.php
 *.blade.php
+composer.json
