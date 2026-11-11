@@ -118,8 +118,9 @@ const emit = defineEmits<{
 
 <style scoped>
 .schedule-grid {
-  --col-w: calc(var(--cell-w-week) + var(--cell-gap));
-  --col-track: minmax(var(--col-w), 1fr);
+  /* Week columns are 86px in the mockup (1328px wide); they may shrink a little so that the
+     whole week still fits on a 1280px screen, and they stretch on wider ones. */
+  --col-track: minmax(74px, 1fr);
 
   display: flex;
   flex: 1;
@@ -131,8 +132,7 @@ const emit = defineEmits<{
 }
 
 .schedule-grid--month {
-  --col-w: calc(var(--cell-w-month) + var(--cell-gap));
-  --col-track: var(--col-w);
+  --col-track: calc(var(--cell-w-month) + var(--cell-gap));
 }
 
 .schedule-grid__body {
